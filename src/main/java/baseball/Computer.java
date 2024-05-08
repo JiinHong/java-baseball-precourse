@@ -88,6 +88,6 @@ public class Computer {
             if (randomNumbers.contains(userNumber))
                 count++;
         }
-        return count;
+        return count-checkStrikeCount(userNumbers);
     }
 }
